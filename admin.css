@@ -1,0 +1,39 @@
+
+._list {
+    padding-left: 35px;
+    padding-right: 5px;
+}
+
+.block-adminframe {
+    position: relative;
+}
+
+.block-adminframe:hover {
+    outline: solid 4px #53c6ff;
+}
+
+.adminframe-editwrapper {
+    position: absolute;
+    top: 50%;
+    left: -32px;
+    transform: translateY(-50%);
+    height: 10px;
+    width: 10px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 2px;
+    color: #ccc;
+    font-size: 0;
+}
+
+.adminframe-editwrapper:hover {
+    width: auto;
+    height: auto;
+    background: #fff;
+    font-size: 12px;
+    color: #000;
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+    z-index: 99;
+}
+
