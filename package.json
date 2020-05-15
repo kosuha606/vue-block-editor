@@ -1,0 +1,23 @@
+{
+  "name": "vue-block-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require @babel/register",
+    "start": "nodemon --exec babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosuha606/vue-block-editor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kosuha606/vue-block-editor/issues"
+  },
+  "homepage": "https://github.com/kosuha606/vue-block-editor#readme",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
